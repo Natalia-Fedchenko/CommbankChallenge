@@ -21,4 +21,4 @@ test:
       - target/allure-results/
       - target/site/allure-maven-plugin/
   only:
-    - master
+    - feature/NataliaFedchenko-CBATest
