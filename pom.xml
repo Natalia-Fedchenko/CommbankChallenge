@@ -39,7 +39,7 @@
                 <version>2.12.0</version>
                 <configuration>
                     <!-- Specify Allure report directory -->
-                    <reportDirectory>${project.build.directory}/allure-results</reportDirectory>
+                    <reportDirectory>${project.build.directory}/../allure-results</reportDirectory>
                 </configuration>
             </plugin>
         </plugins>

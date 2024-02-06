@@ -19,6 +19,5 @@ test:
   artifacts:
     paths:
       - target/allure-results/
-      - target/site/allure-maven-plugin/
   only:
     - feature/NataliaFedchenko-CBATest
