@@ -54,15 +54,6 @@ jobs:
       - name: Run Tests with Maven
         run: mvn clean test
 
-  upload-artifacts:
-    runs-on: ubuntu-latest
-
-    needs: test
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: Upload Allure results
         uses: actions/upload-artifact@v2
         if: always() # Ensure this step runs always
