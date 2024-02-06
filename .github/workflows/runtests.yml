@@ -65,6 +65,7 @@ jobs:
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v2
+        if: always() # Ensure this step runs always
         with:
           name: allure-results
           path: allure-results/*
