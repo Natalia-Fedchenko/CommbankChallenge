@@ -1,4 +1,6 @@
 This is an example project for the Commbank coding challenge.
+Please note that I did cover only few existing APIs as a sample
+There are more tests to be added for comprehansive coverage.
 
 ## Overview
 
@@ -25,16 +27,10 @@ To run the project locally, follow these steps:
 ### To run from CI/CD (GITLAB)
 1. Visit GitLab:
 Open this project on the GitLab website.
+ - https://github.com/Natalia-Fedchenko/CommbankChallenge/actions/runs/7797776807#artifacts
+2. Click on re-run
+![img_1.png](img_1.png)
 
-2. Navigate to CI/CD Pipelines:
-Go to your project and navigate to "CI/CD > Pipelines" in the GitLab UI. You'll see the pipeline(s) triggered by your recent commit.
-
-3. Monitor Pipeline Execution:
-GitLab will automatically start executing the pipeline stages defined in your .gitlab-ci.yml file. You can monitor the progress of the pipeline, view logs, and check for any issues.
-
-4. View Results:
-Once the pipeline is complete, you can check the results, including whether the tests passed or failed. If there are any issues, you can inspect the logs to identify the problem.
-
-5. Access Artifacts:
-Access Allure reports in artefact, 
-6. Run allure serve from the dir where you uploaded your allure-results
+3. Access Artifacts:
+Access Allure reports in artefact below the page, 
+4. Run allure serve from the dir where you uploaded your allure-results
